@@ -1,0 +1,90 @@
+.reservation{
+    padding: 50px 0;
+}
+.reservation .data{
+    border: 1px solid black;
+    margin: 50px 140px;
+    padding: 35px 20px;
+    width: 70%;
+    border-radius: 30px;
+}
+.reservation .data h1{
+    font-size: 25px;
+    font-weight: 400;
+
+}
+.reservation .data h3{
+    float: right;
+    margin: -40px 20px;
+    border: 1px solid #009DFF;
+    padding: 10px 10px;
+    font-size: 17px;
+    border-radius: 30px;
+    color: white;
+    background-color: #009DFF;
+    cursor: pointer;
+}
+.reservation .data h3:hover{
+    background-color: white;
+    color: #009DFF;
+}
+
+
+
+
+/*start responsive for mobile*/
+@media (max-width: 767px) {
+    .reservation .data {
+        border: 1px solid black;
+        margin: 50px 0;
+        padding: 45px 10px;
+        width: 100%;
+        text-align: center;
+        border-radius: 30px;
+    }
+    .reservation .data h1 {
+        font-size: 24px;
+        font-weight: 400;
+        padding: 25px 0;
+    }
+    .reservation .data h3 {
+        float: none;
+        margin: 0 55px;
+        border: 1px solid #009DFF;
+        padding: 10px 10px;
+        font-size: 17px;
+        border-radius: 30px;
+        color: white;
+        background-color: #009DFF;
+        cursor: pointer;
+    }
+}
+
+
+
+/*responsive for tablet*/
+@media(min-width: 768px) and (max-width: 991px){
+    .reservation .data {
+        border: 1px solid black;
+        margin: 50px 90px;
+        padding: 35px 20px;
+        width: 70%;
+        border-radius: 30px;
+        text-align: center;
+    }
+    
+    .reservation .data h3 {
+        float: none;
+        margin: 12px 20px;
+        border: 1px solid #009DFF;
+        padding: 10px 10px;
+        font-size: 17px;
+        border-radius: 30px;
+        color: white;
+        background-color: #009DFF;
+        cursor: pointer;
+    }
+    
+    
+}
+

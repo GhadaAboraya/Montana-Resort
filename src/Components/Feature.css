@@ -1,0 +1,145 @@
+.feature{
+    padding: 100px 0;
+}
+.feature .heading span{
+    font-size: 14px;
+    color: #009DFF;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+}
+.feature .heading h1 {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60px;
+    padding: 40px 0;
+    text-align: center;
+}
+.feature .col-md-6 {
+    position: relative;
+    width: 100%;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    overflow: hidden;
+}
+.feature .col-md-6::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: rgba(0, 0, 0, .4);
+    z-index: 1;
+
+}
+.feature .col-md-6:hover > .imgzoom img{
+    transition: .5s;
+    transform: scale(1.3);
+}
+
+.feature .col-md-6:hover > .back {
+    right: 50px !important;
+}
+
+.feature .imgzoom{
+    overflow: hidden;
+}
+.feature .row .col-md-6 img{
+    width: 100%;
+    transition: .5s;
+    transform: scale(1);
+}
+.feature .row .col-md-6 img:hover{
+    transition: .5s;
+    transform: scale(.9);
+}
+.feature .row .col-md-6 .data {
+    position: absolute;
+    left: 50px;
+    right: 0;
+    bottom: 20px;
+    z-index: 99;
+}
+
+.feature .row .col-md-6 .back {
+    position: absolute;
+    right: -120px;
+    bottom: 30px;
+    z-index: 99;
+    transition: .5s;
+
+}
+.feature .row .col-md-6 .back a {
+    color: #fff;
+    font-size: 18px;
+    border: 2px solid #009DFF;
+    background-color: #009DFF;
+    text-align: center;
+    padding: 5px 30px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.feature .row .col-md-6 .data .span2{
+    font-size: 14px;
+    color: #FFFFFF;
+    display: block;
+    position: relative;
+}
+.feature .row .col-md-6 .data h1{
+    font-size: 30px;
+    color: #fff;
+    position: relative;
+    padding: 0;
+}
+
+
+
+/*start responsive for mobile*/
+@media (max-width: 767px) {
+    .feature .heading span {
+        font-size: 35px;
+        color: #009DFF;
+        font-weight: 400;
+        display: block;
+        text-align: left;
+    }
+    .feature .heading h1 {
+        font-size: 35px;
+        font-weight: 300;
+        line-height: 60px;
+        padding: 20px 0;
+        text-align: left;
+    }
+    .feature .col-md-6 {
+        position: relative;
+        width: 95%;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        overflow: hidden;
+    }
+    .feature .row .col-md-6 .back {
+        position: absolute;
+        right: 4px;
+        bottom: 30px;
+        z-index: 99;
+        transition: .5s;
+    }
+}
+
+
+
+
+/*responsive for tablet*/
+@media(min-width: 768px) and (max-width: 991px){
+    .feature .heading span {
+        font-size: 30px;
+        color: #009DFF;
+        font-weight: 400;
+        display: block;
+        text-align: center;
+    }
+}
+
+
+

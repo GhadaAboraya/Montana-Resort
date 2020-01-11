@@ -1,0 +1,36 @@
+.vacation{
+    background-image: url('../images/video.png');
+    padding: 100px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vacation img{
+    width: 100%;
+}
+.vacation .content{
+    margin: 150px 0;
+    text-align: center;
+    color: white;
+}
+.vacation .content h3{
+    font-size: 17px;
+    font-weight: 200;
+}
+.vacation .content h2{
+    font-size: 45px;
+    padding: 20px 0;
+}
+
+
+
+/*start responsive for mobile*/
+@media (max-width: 767px) {
+    .vacation .content h3 {
+        font-size: 20px;
+        font-weight: 200;
+    }
+    .vacation .content h2 {
+        font-size: 30px;
+        padding: 20px 0;
+    }
+}

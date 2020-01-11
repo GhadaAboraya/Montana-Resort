@@ -1,0 +1,105 @@
+.about{
+    padding: 130px 0;
+}
+.about .row .col-md-6 span{
+    font-size: 14px;
+    color: #009DFF;
+    font-weight: 400;
+}
+.about .row .col-md-6 h1{
+    font-size: 65px;
+    font-weight: 300;
+    line-height: 60px;
+    padding: 40px 0;
+}
+.about .row .col-md-6 p{
+    line-height: 28px;
+    font-size: 16px;
+    color: #5a5b5d;
+}
+.about .row .col-md-6 .button{
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: 1px solid #5a5b5d;
+    color: #5a5b5d;
+    text-decoration: none;
+    padding: 15px 10px 10px 10px;
+}
+.about .row .col-md-6 .button:hover{
+    color: #009DFF;
+    border-bottom: 1px solid #009DFF;
+}
+.about .row .col-md-3 .img1{
+    padding: 0 5px;
+}
+.about .row .col-md-3 .img2{
+    padding: 40px 15px;
+}
+
+
+/*start responsive for mobile*/
+@media (max-width: 767px) {
+    .about {
+        padding: 100px 0;
+    }
+    .about .row .col-md-6 span {
+        font-size: 35px;
+        color: #009DFF;
+        font-weight: 400;
+    }
+    .about .row .col-md-6 h1 {
+        font-size: 35px;
+        font-weight: 300;
+        line-height: 60px;
+        padding: 35px 0;
+    }
+    .about .row .col-md-6 p {
+        line-height: 28px;
+        font-size: 16px;
+        color: #5a5b5d;
+    }
+    .about .row .col-md-6 .button {
+        font-size: 18px;
+        font-weight: 400;
+        border-bottom: 1px solid #5a5b5d;
+        color: #5a5b5d;
+        text-decoration: none;
+        padding: 15px 10px 10px 10px;
+    }
+    .about .row .col-md-3 .img1 {
+        padding: 35px 15px;
+        width: 100%;
+    }
+    .about .row .col-md-3 .img2 {
+        padding: 15px 15px;
+        width: 100%;
+    }
+}
+
+
+
+/*responsive for tablet*/
+@media(min-width: 768px) and (max-width: 991px){
+    .about {
+        padding: 100px 0;
+    }
+    .about .row .col-md-6 span {
+        font-size: 30px;
+        color: #009DFF;
+        font-weight: 400;
+    }
+    .about .row .col-md-6 h1 {
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 60px;
+        padding: 20px 0;
+    }
+    .about .row .col-md-3 .img1 {
+        padding: 100px 5px;
+        width: 100%;
+    }
+    .about .row .col-md-3 .img2 {
+        padding: 40px 0;
+        width: 100%;
+    }
+}
